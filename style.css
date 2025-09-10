@@ -1,3 +1,4 @@
+/*Global*/
 body {
     background-color: #f4f4f4;
     color: #555;
@@ -10,6 +11,8 @@ body {
     width: 80%;
     margin: auto;
 }
+
+/*Box 1*/
 
 .box-1 {
     background-color: #333;
@@ -27,4 +30,12 @@ body {
     text-transform: uppercase;
     letter-spacing: 0.2em;
     word-spacing: 1em;
+}
+
+/*Box 2*/
+
+.box-2 {
+    border: 3px dotted #ccc;
+    padding: 20px;
+    margin: 20px 0;
 }
