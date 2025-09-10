@@ -141,3 +141,37 @@ a:visited {
     padding: 15px;
     box-sizing: border-box;
 }
+
+/*Box 7*/
+
+.p-box {
+    width: 100%;
+    aspect-ratio: 8 / 5;
+    border: 1px solid #000;
+    margin-top: 30px;
+    position: relative;
+    background-image: url(images/bgimage.jpg);
+
+    background-repeat: no-repeat;
+    background-position: 100px 100px;
+    background-position: center top;
+}
+
+.p-box h1 {
+    position: absolute;
+    top: 20%;
+    left: 30%;
+}
+
+.p-box h2 {
+    position: absolute;
+    bottom: 5%;
+    right: 10%;
+}
+
+/*Fixed button*/
+
+.fix-me {
+    position: fixed;
+    top: 50%;
+}
