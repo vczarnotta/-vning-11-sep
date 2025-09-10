@@ -24,6 +24,10 @@ body {
     color: #fff;
 }
 
+.clr {
+    clear: both;
+}
+
 a {
     text-decoration: none;
     color: #000;
@@ -112,10 +116,28 @@ a:visited {
     width: 100%;
 }
 
+/*Box 5*/
+
 .block {
     float: left;
     width: 33.3%;
     border: 1px solid #ccc;
     padding: 10px;
+    box-sizing: border-box;
+}
+
+/*Box 6*/
+
+#main-block {
+    float: left;
+    width: 70%;
+}
+
+#sidebar {
+    float: right;
+    width: 30%;
+    background-color: #333;
+    color: #fff;
+    padding: 15px;
     box-sizing: border-box;
 }
